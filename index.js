@@ -71,9 +71,9 @@ const readmeInputs = () => {
 
 };
 
-const generateReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) => 
-
-    `# <h1 align="center"> ${title} </h1> 
+const createReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) =>
+    `
+    <h1 align="center"> ${title} </h1> 
     ![badge](https://img.shields.io/badge/license-${license}-blue)
 
     ## Description
@@ -129,7 +129,7 @@ const generateReadme = ({ title, description, installation, usage, credit, licen
 const init = () => {
     readmeInputs()
         // Use writeFileSync method to use promises instead of a callback function
-        .then((answers) => fs.writeFileSync('readme.md', generateReadme(answers)))
+        .then((answers) => fs.writeFileSync('readme.md', createReadme(answers)))
         .then(() => console.log('Successfully generated the intitial readme'))
         .catch((err) => console.error(err));
 };
