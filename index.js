@@ -72,51 +72,45 @@ const readmeInputs = () => {
 };
 
 const createReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) =>
- `  # ${title}
- //#region # Description
-    ${description}
-    ## Table of Contents
-    -[Installation](#installation)
+ `
+ # ${title}
+ ## Description
+ ${description}
+ ## Table of Contents
+ -[Installation](#installation)
 
-    -[Usage](#usage)
+ -[Usage](#usage)
 
-    -[Credits](#credits)
+ -[Credits](#credits)
 
-    -[License](#license)
+ -[License](#license)
 
-    -[Badges](#badges)
+ -[Badges](#badges)
 
-    -[Features](#features)
+ -[Features](#features)
 
-    -[How To Contribute](#how_to_contribute)
+ -[How To Contribute](#how_to_contribute)
 
-    -[Tests](#tests)
+ -[Tests](#tests)
 
-    -[Acknowledgements](#acknowledgements)
-    # Installation
-    💾
-    ${installation}
-    ## Usage
-    💻
-    ${usage}
-    ## Credits
-    ${credit}
-    ## License
-    [![badge](https://img.shields.io/badge/license-${license}-blue)](https://opensource.org/licenses/Apache-2.0)
-    ## Badges
-
-    # Features
-    ${features}
-    # How_to_contribute
-    ${contributions}
-
-    # Tests
-    ${tests}
-
-    # Questions
-    For questions on usage or functionality i can be reached at:
-    Github: [${github}](https://github.com/${github})
-    E-mail: ${email}
+ -[Questions](#questions)
+ ## Installation
+ 💾 ${installation}
+ ## Usage
+ ## Credits
+ ## License
+ ![badge](https://img.shields.io/badge/license-${license}-blue)
+ ## Badges
+ ## Features
+ ${features}
+ ## How_to_contribute
+ ${contributions}
+ ## Tests
+ ${tests}
+ ## Questions
+For questions on usage or functionality i can be reached at:
+Github: [${github}](https://github.com/${github})
+E-mail: ${email}
     `;
 
 // TODO: Create a function to write README file
