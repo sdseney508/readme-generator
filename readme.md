@@ -1,10 +1,6 @@
-<<<<<<< HEAD
+# test7
 
-    <h1 align="center"> asd </h1> 
-=======
- <h1 align="center"> teszt5 </h1> 
->>>>>>> e60651540ecb1e048feaf251a89baa2a7f8dc78d
-    ![badge](https://img.shields.io/badge/license-Apache-blue)
+    ![badge](https://img.shields.io/badge/license-MIT-blue)
 
     ## Description
     asd
@@ -31,26 +27,26 @@
 
     ## Installation
     💾
-    asd
+    fgt
     ## Usage
     💻
-    asd
+    fgt
     ## Credits
     undefined
     ## License
-    [![badge](https://img.shields.io/badge/license-Apache-blue)](https://opensource.org/licenses/Apache-2.0)
+    [![badge](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/Apache-2.0)
     ## Badges
 
     ## Features
-    asd
+    s
     ## How_to_contribute
-    asd
+    fgt
 
     ## Tests
-    asd
+    fgt
 
     ## Questions
     For questions on usage or functionality i can be reached at:
-    Github: [asd](https://github.com/asd)
-    E-mail: undefined
+    Github: [sdseney508](https://github.com/sdseney508)
+    E-mail: sdseney508@gmail.com
     

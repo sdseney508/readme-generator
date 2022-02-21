@@ -53,7 +53,7 @@ const readmeInputs = () => {
         },
         {
             type: 'input',
-            name: 'tests',
+            name: 'email',
             message: 'Enter your email address.',
         },
         {
@@ -72,8 +72,8 @@ const readmeInputs = () => {
 };
 
 const createReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) =>
-    `
-    <h1 align="center"> ${title} </h1> 
+    `# ${title}
+
     ![badge](https://img.shields.io/badge/license-${license}-blue)
 
     ## Description
