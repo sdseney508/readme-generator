@@ -72,10 +72,10 @@ const readmeInputs = () => {
 };
 
 const createReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) =>
- `
-    ## Description
+ `  ${title}
+    # Description
     ${description}
-    ## Table of Contents
+    # Table of Contents
     -[Installation](#installation)
 
     -[Usage](#usage)
@@ -93,7 +93,7 @@ const createReadme = ({ title, description, installation, usage, credit, license
     -[Tests](#tests)
 
     -[Acknowledgements](#acknowledgements)
-    ## Installation
+    # Installation
     💾
     ${installation}
     ## Usage
@@ -105,15 +105,15 @@ const createReadme = ({ title, description, installation, usage, credit, license
     [![badge](https://img.shields.io/badge/license-${license}-blue)](https://opensource.org/licenses/Apache-2.0)
     ## Badges
 
-    ## Features
+    # Features
     ${features}
-    ## How_to_contribute
+    # How_to_contribute
     ${contributions}
 
-    ## Tests
+    # Tests
     ${tests}
 
-    ## Questions
+    # Questions
     For questions on usage or functionality i can be reached at:
     Github: [${github}](https://github.com/${github})
     E-mail: ${email}
