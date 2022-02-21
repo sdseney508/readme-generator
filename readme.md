@@ -1,8 +1,8 @@
-## test 
+# <h1 align="center"> teszt5 </h1> 
     ![badge](https://img.shields.io/badge/license-Apache-blue)
 
     ## Description
-    why
+    readmne generator
 
     ## Table of Contents
     -[Installation](#installation)
@@ -26,10 +26,10 @@
 
     ## Installation
     💾
-    does t
+    asd
     ## Usage
     💻
-    the 
+    asd
     ## Credits
     undefined
     ## License
