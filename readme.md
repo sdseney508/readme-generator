@@ -39,7 +39,7 @@
     asd
 
     ## Tests
-    asdasd
+    asd
 
     ## Questions
     For questions on usage or functionality i can be reached at:
