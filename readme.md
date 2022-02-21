@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
     <h1 align="center"> asd </h1> 
+=======
+ <h1 align="center"> teszt5 </h1> 
+>>>>>>> e60651540ecb1e048feaf251a89baa2a7f8dc78d
     ![badge](https://img.shields.io/badge/license-Apache-blue)
 
     ## Description
