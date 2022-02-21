@@ -65,75 +65,74 @@ const readmeInputs = () => {
         {
             type: 'list',
             name: 'license',
-            message:  'Please select a license.',
-            choices: ["Academic", "Apache", "GNU", "ISC", "MIT", "Mozilla", "Open"],
-
+            message: 'Please select a license.',
+            choices: ["Apache", "GNU", "MIT", "Mozilla",]
         },
     ]);
 
 };
 
-const generateReadme = ({title, description, installation, usage, credit, license, features, contributions, tests, github, email}) =>
+const generateReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) => 
 
-`#${title} 
-![badge](https://img.shields.io/badge/license-${license}-brighblue)
-## Description
-${description}
+    `##${title} <br>
+    ![badge](https://img.shields.io/badge/license-${license}-blue)
+    ## Description
+    ${description}
 
-## Table of Contents
--[Installation](#installation)
+    ## Table of Contents
+    -[Installation](#installation)
 
--[Usage](#usage)
+    -[Usage](#usage)
 
--[Credits](#credits)
+    -[Credits](#credits)
 
--[License](#license)
+    -[License](#license)
 
--[Badges](#badges)
+    -[Badges](#badges)
 
--[Features](#features)
+    -[Features](#features)
 
--[How To Contribute](#how_to_contribute)
+    -[How To Contribute](#how_to_contribute)
 
--[Tests](#tests)
+    -[Tests](#tests)
 
--[Acknowledgements](#acknowledgements)
+    -[Acknowledgements](#acknowledgements)
 
 
-## Installation
-💾
-${installation}
-## Usage
-💻
-${usage}
-## Credits
-${credit}
-## License
-![badge](https://img.shields.io/badge/license-${license}-blue)
-## Badges
+    ## Installation
+    💾
+    ${installation}
+    ## Usage
+    💻
+    ${usage}
+    ## Credits
+    ${credit}
+    ## License
+    ![badge](https://img.shields.io/badge/license-${license}-blue)(https://opensource.org/licenses/Apache-2.0)
+    ## Badges
 
-## Features
-${features}
-## How_to_contribute
-${contributions}
+    ## Features
+    ${features}
+    ## How_to_contribute
+    ${contributions}
 
-## Tests
-${tests}
+    ## Tests
+    ${tests}
 
-## Questions
-For questions on usage or functionality i can be reached at:
-Github: [${github}](https://github.com/${github})
-E-mail: ${email}
-`
+    ## Questions
+    For questions on usage or functionality i can be reached at:
+    Github: [${github}](https://github.com/${github})
+    E-mail: ${email}
+    `;
 
 // TODO: Create a function to write README file
 const init = () => {
     readmeInputs()
-      // Use writeFileSync method to use promises instead of a callback function
-      .then((answers) => fs.writeFileSync('readme.md', generateReadme(answers)))
-      .then(() => console.log('Successfully generated the intitial readme'))
-      .catch((err) => console.error(err));
-  };
+        // Use writeFileSync method to use promises instead of a callback function
+        .then((answers) => fs.writeFileSync('readme.md', generateReadme(answers)))
+        .then(() => console.log('Successfully generated the intitial readme'))
+        .catch((err) => console.error(err));
+};
 
 
 init();

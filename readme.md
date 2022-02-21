@@ -1,49 +1,50 @@
-#read me test 3 
-![badge](https://img.shields.io/badge/license-MIT-brighblue)
-## Description
-makes a areadme file
+##asd <br>
+    ![badge](https://img.shields.io/badge/license-Apache-blue)
+    ## Description
+    asd
 
-## Table of Contents
--[Installation](#installation)
+    ## Table of Contents
+    -[Installation](#installation)
 
--[Usage](#usage)
+    -[Usage](#usage)
 
--[Credits](#credits)
+    -[Credits](#credits)
 
--[License](#license)
+    -[License](#license)
 
--[Badges](#badges)
+    -[Badges](#badges)
 
--[Features](#features)
+    -[Features](#features)
 
--[How To Contribute](#how_to_contribute)
+    -[How To Contribute](#how_to_contribute)
 
--[Tests](#tests)
+    -[Tests](#tests)
 
--[Acknowledgements](#acknowledgements)
+    -[Acknowledgements](#acknowledgements)
 
 
-## Installation
-💾
-run node index.js
-## Usage
-💻
-none
-## Credits
-undefined
-## License
-git add -A![badge](https://img.shields.io/badge/license-MIT-blue)
-## Badges
+    ## Installation
+    💾
+    asd
+    ## Usage
+    💻
+    asd
+    ## Credits
+    undefined
+    ## License
+    ![badge](https://img.shields.io/badge/license-Apache-blue)(https://opensource.org/licenses/Apache-2.0)
+    ## Badges
 
-## Features
-it takes in ser inputs and generates a readme file for their application
-## How_to_contribute
-none
+    ## Features
+    asd
+    ## How_to_contribute
+    asd
 
-## Tests
- none
+    ## Tests
+    asd
 
-## Questions
-For questions on usage or functionality i can be reached at:
-Github: [sdseney508](https://github.com/sdseney508)
-E-mail: undefined
+    ## Questions
+    For questions on usage or functionality i can be reached at:
+    Github: [sdseney508](https://github.com/sdseney508)
+    E-mail: undefined
+    
