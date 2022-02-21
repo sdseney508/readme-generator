@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 //fs is already included with NPM but is required to generate the readme file.
 const fs = require('fs');
-const { cpuUsage } = require('process');
 
 // TODO: Create an array of questions for user input
 const readmeInputs = () => {
@@ -74,8 +73,9 @@ const readmeInputs = () => {
 
 const generateReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) => 
 
-    `##${title} <br>
+    `##${title} 
     ![badge](https://img.shields.io/badge/license-${license}-blue)
+
     ## Description
     ${description}
 
@@ -108,7 +108,7 @@ const generateReadme = ({ title, description, installation, usage, credit, licen
     ## Credits
     ${credit}
     ## License
-    ![badge](https://img.shields.io/badge/license-${license}-blue)(https://opensource.org/licenses/Apache-2.0)
+    [![badge](https://img.shields.io/badge/license-${license}-blue)](https://opensource.org/licenses/Apache-2.0)
     ## Badges
 
     ## Features
