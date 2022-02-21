@@ -72,9 +72,7 @@ const readmeInputs = () => {
 };
 
 const createReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) =>
-    `# Title
-    ${title}
-    ![badge](https://img.shields.io/badge/license-${license}-blue)
+ `
     ## Description
     ${description}
     ## Table of Contents
