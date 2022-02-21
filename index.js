@@ -72,10 +72,10 @@ const readmeInputs = () => {
 };
 
 const createReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) =>
- `  ${title}
-    # Description
+ `  # ${title}
+ //#region # Description
     ${description}
-    # Table of Contents
+    ## Table of Contents
     -[Installation](#installation)
 
     -[Usage](#usage)
