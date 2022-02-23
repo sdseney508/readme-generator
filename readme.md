@@ -1,7 +1,7 @@
 
- # please work
+ # Readme Generator
  ## Description
- asd
+ Pre-fills in the initial readme of a project and pre-selects the license.
  ## Table of Contents
  -[Installation](#installation)
 
@@ -21,20 +21,20 @@
 
  -[Questions](#questions)
  ## Installation
- 💾 asd
+ 💾 Run node index.js
  ## Usage
  ## Credits
  ## License
- ![badge](https://img.shields.io/badge/license-Apache-blue)
+ ![badge](https://img.shields.io/badge/license-MIT-blue)
  ## Badges
  ## Features
- asd
+ License badge
  ## How_to_contribute
- asd
+ None.
  ## Tests
- asd
+ None.
  ## Questions
 For questions on usage or functionality i can be reached at:
-Github: [asd](https://github.com/asd)
-E-mail: asd
+Github: [sdseney508](https://github.com/sdseney508)
+E-mail: sdseney508@gmail.com
     
