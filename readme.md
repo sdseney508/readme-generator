@@ -25,9 +25,12 @@
 
  -[Questions](#questions)
  ## Installation
- 💾 To install and run the readme generator, download the inde.js file into a new folder and then run:
- -npm init -y; 
+ 💾 To install and run the readme generator, download the index.js file into a new folder, install inquirer, and then run the index.js file:
+ 
+ -npm install inquirer
+ 
  -node index.js
+ 
  ## Usage
  ## Credits
  ## License
