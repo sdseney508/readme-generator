@@ -2,6 +2,7 @@
  # Readme Generator
 
  ![badge](https://img.shields.io/badge/license-MIT-blue)
+![image](https://user-images.githubusercontent.com/62141103/155847209-2982620a-150f-4ff2-ad2f-31a4de120b27.png)
 
  ## Description
  Generates a readme file based on user input for their project.
