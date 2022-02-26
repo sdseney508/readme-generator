@@ -31,7 +31,8 @@
  ![badge](https://img.shields.io/badge/license-MIT-blue)
  ## Badges
  ## Features
- This project develops an initial readme file for a project and lets the user select the applicable license for their application.
+ This project develops an initial readme file for a project and lets the user select the applicable license for their application.  A demonstration of the usage can be found at:
+ https://watch.screencastify.com/v/dPPuPnWuGjSNHQ76xcYO
  ## 'How to contribute'
  N/A
  ## Tests
