@@ -27,8 +27,10 @@
  ## Installation
  💾 Copy the index.js file into your project, then from your terminal run: 
  
- -npm install inquirer 
+ -npm install inquirer
+ 
  to install inquirer.  Then run:
+ 
  -node index.js.
  ## Usage
  None
