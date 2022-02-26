@@ -74,6 +74,9 @@ const readmeInputs = () => {
 const createReadme = ({ title, description, installation, usage, credit, license, features, contributions, tests, github, email }) =>
  `
  # ${title}
+
+ ![badge](https://img.shields.io/badge/license-${license}-blue)
+
  ## Description
  ${description}
  ## Table of Contents
@@ -89,7 +92,7 @@ const createReadme = ({ title, description, installation, usage, credit, license
 
  -[Features](#features)
 
- -[How To Contribute](#how_to_contribute)
+ -[How To Contribute](#'how to contribute')
 
  -[Tests](#tests)
 
@@ -103,7 +106,7 @@ const createReadme = ({ title, description, installation, usage, credit, license
  ## Badges
  ## Features
  ${features}
- ## How_to_contribute
+ ## 'How to contribute'
  ${contributions}
  ## Tests
  ${tests}
@@ -121,6 +124,5 @@ const init = () => {
         .then(() => console.log('Successfully generated the intitial readme'))
         .catch((err) => console.error(err));
 };
-
 
 init();
