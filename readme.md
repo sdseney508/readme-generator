@@ -19,7 +19,7 @@
 
  -[Features](#features)
 
- -[How To Contribute](#'how to contribute')
+ -[How To Contribute](#contributing)
 
  -[Tests](#tests)
 
