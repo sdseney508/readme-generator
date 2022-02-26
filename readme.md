@@ -46,6 +46,8 @@
  By hand tests to verify all functionality.
  ## Questions
 For questions on usage or functionality i can be reached at:
+
 Github: [sdseney508](https://github.com/sdseney508)
+
 E-mail: sdseney508@gmail.com
     
