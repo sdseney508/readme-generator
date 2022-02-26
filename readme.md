@@ -40,7 +40,7 @@
  This project develops an initial readme file for a project and lets the user select the applicable license for their application.  A demonstration of the usage can be found at:
  
  https://watch.screencastify.com/v/dPPuPnWuGjSNHQ76xcYO
- ## 'How to contribute'
+ ## Contributing 
  N/A
  ## Tests
  By hand tests to verify all functionality.
