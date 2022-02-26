@@ -25,7 +25,9 @@
 
  -[Questions](#questions)
  ## Installation
- 💾 npm -i; node index.js
+ 💾 To install and run the readme generator, download the inde.js file into a new folder and then run:
+ -npm init -y; 
+ -node index.js
  ## Usage
  ## Credits
  ## License
