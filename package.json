@@ -1,7 +1,7 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "![badge](https://img.shields.io/badge/license-MIT-blue)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,7 @@
   "homepage": "https://github.com/sdseney508/readme-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }

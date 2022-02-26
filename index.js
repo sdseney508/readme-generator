@@ -32,7 +32,7 @@ const readmeInputs = () => {
         },
         {
             type: 'input',
-            name: 'credits',
+            name: 'credit',
             message: 'Please enter any other developers that need to be credited / cited',
 
         },
@@ -92,7 +92,7 @@ const createReadme = ({ title, description, installation, usage, credit, license
 
  -[Features](#features)
 
- -[How To Contribute](#'how to contribute')
+ -[How To Contribute](#Contributions)
 
  -[Tests](#tests)
 
@@ -100,13 +100,15 @@ const createReadme = ({ title, description, installation, usage, credit, license
  ## Installation
  💾 ${installation}
  ## Usage
+ ${usage}
  ## Credits
+ ${credit}
  ## License
  ![badge](https://img.shields.io/badge/license-${license}-blue)
  ## Badges
  ## Features
  ${features}
- ## 'How to contribute'
+ ## Contributions
  ${contributions}
  ## Tests
  ${tests}

@@ -4,7 +4,7 @@
  ![badge](https://img.shields.io/badge/license-MIT-blue)
 
  ## Description
- Generates a readme file based on user input for their project.
+ This project generates the initial readme file for a project and pre-generates all of the needed chapters for a quality readme based on user inputs.
  ## Table of Contents
  -[Installation](#installation)
 
@@ -18,24 +18,26 @@
 
  -[Features](#features)
 
- -[How To Contribute](#'how to contribute')
+ -[How To Contribute](#Contributions)
 
  -[Tests](#tests)
 
  -[Questions](#questions)
  ## Installation
- 💾 npm -i; node index.js
+ 💾 Copy the index.js file into your project, run "npm install inquirer" to install inquirer.  Then run node index.js.
  ## Usage
+ None
  ## Credits
+ None
  ## License
  ![badge](https://img.shields.io/badge/license-MIT-blue)
  ## Badges
  ## Features
- This project develops an initial readme file for a project and lets the user select the applicable license for their application.
- ## 'How to contribute'
- N/A
+ This project uses inquirer to gather initial user inputs to generate an initial readme file for a project.
+ ## Contributions
+ None, this project is complete in its current form.
  ## Tests
- By hand tests to verify all functionality.
+ By hand tests to ensure all paragraphs are populated correctly.
  ## Questions
 For questions on usage or functionality i can be reached at:
 Github: [sdseney508](https://github.com/sdseney508)
